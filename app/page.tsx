@@ -246,7 +246,7 @@ function Dashboard() {
                   </div>
 
                   {/* Marcadores de restaurantes */}
-                  {restaurants.map((restaurant, index) => (
+                  {restaurants.map((restaurant, index, id) => (
                     <div
                       key={restaurant.id}
                       className={`absolute w-8 h-8 bg-red-500 rounded-full border-2 border-white shadow-lg cursor-pointer transform -translate-x-1/2 -translate-y-1/2 hover:scale-110 transition-transform ${
